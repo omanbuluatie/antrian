@@ -1,66 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Aplikasi Antrian Digital
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://github.com/laravel/framework/actions">
+    <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version">
+  </a>
+  <a href="https://packagist.org/packages/laravel/framework">
+    <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
+  </a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tentang Aplikasi Antrian Digital
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Aplikasi Antrian Digital adalah solusi modern untuk mengelola antrian di berbagai layanan umum, seperti bank, rumah sakit, kantor pemerintahan, atau layanan pelanggan. Aplikasi ini dirancang untuk memudahkan pengelolaan antrian dengan fitur-fitur yang fleksibel dan antarmuka yang user-friendly. Dengan menggunakan aplikasi ini, proses antrian menjadi lebih efisien, terorganisir, dan nyaman bagi pengguna.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Fitur Utama
 
-## Learning Laravel
+1. **Dukungan Jumlah Loket yang Fleksibel**  
+   Aplikasi ini dapat disesuaikan dengan jumlah loket yang dibutuhkan. Baik itu untuk satu loket atau beberapa loket, aplikasi ini dapat diatur sesuai kebutuhan.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. **Tiga Antarmuka yang Terintegrasi**  
+   - **Display**: Menampilkan nomor antrian terakhir yang sedang dilayani, sehingga pengunjung dapat melihat informasi secara real-time.  
+   - **Operator**: Digunakan oleh petugas untuk memanggil nomor antrian berikutnya.  
+   - **Admin**: Memungkinkan administrator untuk mengatur jumlah loket, reset nomor urut, dan melakukan konfigurasi lainnya.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+3. **Desain User-Friendly**  
+   Antarmuka aplikasi dirancang sederhana dan mudah digunakan, baik oleh petugas maupun pengunjung. Tampilan yang jelas dan intuitif memastikan pengguna dapat berinteraksi dengan aplikasi tanpa kesulitan.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+4. **Reset Nomor Urut**  
+   Admin dapat dengan mudah mereset nomor urut antrian setiap hari atau sesuai kebutuhan, memastikan sistem antrian selalu siap digunakan.
 
-## Laravel Sponsors
+5. **Notifikasi Suara**  
+   Fitur notifikasi suara membantu pengunjung mengetahui kapan giliran mereka dipanggil, sehingga mengurangi kebingungan dan antrian yang tidak teratur.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+6. **Dukungan Multi-Layanan**  
+   Aplikasi ini dapat digunakan untuk berbagai jenis layanan, baik itu layanan kesehatan, perbankan, atau layanan umum lainnya.
 
-### Premium Partners
+### Teknologi yang Digunakan
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Aplikasi ini dibangun menggunakan **Laravel**, sebuah framework PHP yang powerful dan populer untuk pengembangan aplikasi web. Laravel dipilih karena kemampuannya dalam menyediakan struktur kode yang rapi, fitur keamanan yang kuat, serta dukungan komunitas yang luas. Selain itu, Laravel memudahkan pengembang dalam mengelola database, routing, dan autentikasi, sehingga proses pengembangan aplikasi menjadi lebih cepat dan efisien.
 
-## Contributing
+### Keunggulan Aplikasi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Mudah Digunakan**: Antarmuka yang sederhana dan intuitif membuat aplikasi ini mudah digunakan oleh siapa saja, baik petugas maupun pengunjung.
+- **Fleksibel**: Dapat disesuaikan dengan berbagai kebutuhan layanan dan jumlah loket.
+- **Real-Time Update**: Informasi antrian diperbarui secara real-time, memastikan pengunjung selalu mendapatkan informasi terbaru.
+- **Skalabel**: Aplikasi dapat dikembangkan lebih lanjut untuk menambahkan fitur-fitur baru sesuai kebutuhan.
 
-## Code of Conduct
+### Cara Menggunakan Aplikasi
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. **Admin**  
+   - Login ke dashboard admin.  
+   - Atur jumlah loket yang tersedia.  
+   - Lakukan reset nomor urut jika diperlukan.  
 
-## Security Vulnerabilities
+2. **Operator**  
+   - Login ke antarmuka operator.  
+   - Panggil nomor antrian berikutnya dengan satu klik.  
+   - Pantau antrian yang sedang berlangsung.  
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+3. **Display**  
+   - Tampilkan nomor antrian terakhir yang dipanggil di layar.  
+   - Pastikan pengunjung dapat melihat informasi dengan jelas.  
 
-## License
+### Kontribusi
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Kami sangat menghargai kontribusi dari komunitas untuk pengembangan aplikasi ini. Jika Anda ingin berkontribusi, silakan baca [panduan kontribusi](https://laravel.com/docs/contributions) yang tersedia di dokumentasi Laravel.
+
+### Pelaporan Kerentanan Keamanan
+
+Jika Anda menemukan kerentanan keamanan dalam aplikasi ini, silakan hubungi kami melalui email di [support@antriandigital.com](mailto:support@antriandigital.com). Semua laporan kerentanan akan segera ditindaklanjuti.
+
+### Lisensi
+
+Aplikasi Antrian Digital adalah perangkat lunak open-source yang dilisensikan di bawah [MIT license](https://opensource.org/licenses/MIT).
+
+---
+
+Dengan Aplikasi Antrian Digital, pengelolaan antrian menjadi lebih efisien dan terorganisir. Dukung layanan Anda dengan teknologi terbaru untuk memberikan pengalaman terbaik kepada pelanggan!
