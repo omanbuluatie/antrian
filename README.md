@@ -80,7 +80,7 @@ Kami sangat menghargai kontribusi dari komunitas untuk pengembangan aplikasi ini
 
 ### Pelaporan Kerentanan Keamanan
 
-Jika Anda menemukan kerentanan keamanan dalam aplikasi ini, silakan hubungi kami melalui email di [support@antriandigital.com](mailto:support@antriandigital.com). Semua laporan kerentanan akan segera ditindaklanjuti.
+Jika Anda menemukan kerentanan keamanan dalam aplikasi ini, silakan hubungi kami melalui email di [oman.buluatie@gmail.com](mailto:oman.buluatie@gmail.com). Semua laporan kerentanan akan segera ditindaklanjuti.
 
 ### Lisensi
 
