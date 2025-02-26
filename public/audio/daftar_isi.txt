@@ -1,0 +1,37 @@
+ Volume in drive D is New Volume
+ Volume Serial Number is 14A3-8C89
+
+ Directory of D:\website8\htdocs\queue\queue-app\public\audio
+
+02/25/2025  02:48 PM    <DIR>          .
+02/25/2025  02:30 PM    <DIR>          ..
+10/16/2024  11:29 AM             3,168 1.MP3
+10/16/2024  11:29 AM             2,784 2.MP3
+10/16/2024  11:29 AM             3,072 3.MP3
+10/16/2024  11:29 AM             2,688 4.MP3
+10/16/2024  11:29 AM             2,784 5.MP3
+10/16/2024  11:29 AM             2,784 6.MP3
+10/16/2024  11:29 AM             2,976 7.MP3
+10/16/2024  11:29 AM             3,456 8.MP3
+10/16/2024  11:29 AM             4,032 9.MP3
+10/16/2024  11:29 AM           141,657 Airport_Bell.mp3
+10/16/2024  11:29 AM             3,360 belas.MP3
+02/25/2025  02:48 PM                 0 daftar_isi.txt
+10/16/2024  11:29 AM           607,496 in.wav
+10/16/2024  11:29 AM             3,840 konter.MP3
+10/16/2024  11:29 AM             3,360 loket.MP3
+10/16/2024  11:29 AM            86,312 loket.wav
+10/16/2024  11:29 AM             4,032 nomor-urut.MP3
+10/16/2024  11:29 AM           128,326 nomor-urut.wav
+10/16/2024  11:30 AM           641,448 out.wav
+10/16/2024  11:30 AM             2,400 puluh.MP3
+10/16/2024  11:30 AM             3,552 ratus.MP3
+10/16/2024  11:30 AM             2,976 ribu.MP3
+10/16/2024  11:30 AM             4,128 sebelas.MP3
+10/16/2024  11:30 AM             3,456 sepuluh.MP3
+10/16/2024  11:30 AM             4,416 seratus.MP3
+              25 File(s)      1,668,503 bytes
+
+     Total Files Listed:
+              25 File(s)      1,668,503 bytes
+               2 Dir(s)  460,174,319,616 bytes free
