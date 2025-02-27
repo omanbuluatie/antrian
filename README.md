@@ -51,6 +51,94 @@ Aplikasi Antrian Digital adalah solusi modern untuk mengelola antrian di berbaga
 
 Aplikasi ini dibangun menggunakan **Laravel**, sebuah framework PHP yang powerful dan populer untuk pengembangan aplikasi web. Laravel dipilih karena kemampuannya dalam menyediakan struktur kode yang rapi, fitur keamanan yang kuat, serta dukungan komunitas yang luas. Selain itu, Laravel memudahkan pengembang dalam mengelola database, routing, dan autentikasi, sehingga proses pengembangan aplikasi menjadi lebih cepat dan efisien.
 
+---
+
+## Cara Memulai
+
+### Clone atau Download Aplikasi
+
+Anda dapat mengunduh atau meng-clone repositori aplikasi ini dengan menjalankan perintah berikut:
+
+```bash
+git clone https://github.com/username/repository-name.git
+```
+
+Atau, Anda dapat mengunduh langsung dalam bentuk file ZIP melalui tombol **"Download ZIP"** di halaman repositori.
+
+### Instalasi
+
+1. **Persyaratan Sistem**  
+   Pastikan sistem Anda telah terinstal:
+   - PHP (versi 8.0 atau lebih baru)
+   - Composer
+   - MySQL atau database lainnya yang didukung Laravel
+   - Node.js (untuk mengompilasi aset frontend)
+
+2. **Instalasi Dependensi**  
+   Jalankan perintah berikut untuk menginstal dependensi PHP dan JavaScript:
+
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Konfigurasi Environment**  
+   Salin file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+   Buka file `.env` dan sesuaikan dengan detail database Anda:
+
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=127.0.0.1
+   DB_PORT=3306
+   DB_DATABASE=nama_database_anda
+   DB_USERNAME=username_database_anda
+   DB_PASSWORD=password_database_anda
+   ```
+
+4. **Generate Key**  
+   Jalankan perintah berikut untuk menghasilkan application key:
+
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Migrasi Database**  
+   Jalankan migrasi database untuk membuat tabel-tabel yang diperlukan:
+
+   ```bash
+   php artisan migrate
+   ```
+
+6. **Seed Database (Opsional)**  
+   Jika Anda ingin mengisi database dengan data dummy, jalankan perintah berikut:
+
+   ```bash
+   php artisan db:seed
+   ```
+
+7. **Import SQL Dump (Opsional)**  
+   Jika Anda ingin menggunakan data yang sudah disediakan, import file SQL dump yang terdapat di folder `database/dump` ke dalam database Anda. Anda dapat menggunakan perintah berikut:
+
+   ```bash
+   mysql -u username_database_anda -p nama_database_anda < database/dump/nama_file_dump.sql
+   ```
+
+8. **Jalankan Aplikasi**  
+   Jalankan server development dengan perintah:
+
+   ```bash
+   php artisan serve
+   ```
+
+   Aplikasi akan berjalan di `http://localhost:8000`.
+
+---
+
 ### Keunggulan Aplikasi
 
 - **Mudah Digunakan**: Antarmuka yang sederhana dan intuitif membuat aplikasi ini mudah digunakan oleh siapa saja, baik petugas maupun pengunjung.
@@ -58,21 +146,7 @@ Aplikasi ini dibangun menggunakan **Laravel**, sebuah framework PHP yang powerfu
 - **Real-Time Update**: Informasi antrian diperbarui secara real-time, memastikan pengunjung selalu mendapatkan informasi terbaru.
 - **Skalabel**: Aplikasi dapat dikembangkan lebih lanjut untuk menambahkan fitur-fitur baru sesuai kebutuhan.
 
-### Cara Menggunakan Aplikasi
-
-1. **Admin**  
-   - Login ke dashboard admin.  
-   - Atur jumlah loket yang tersedia.  
-   - Lakukan reset nomor urut jika diperlukan.  
-
-2. **Operator**  
-   - Login ke antarmuka operator.  
-   - Panggil nomor antrian berikutnya dengan satu klik.  
-   - Pantau antrian yang sedang berlangsung.  
-
-3. **Display**  
-   - Tampilkan nomor antrian terakhir yang dipanggil di layar.  
-   - Pastikan pengunjung dapat melihat informasi dengan jelas.  
+---
 
 ### Kontribusi
 
